@@ -1,0 +1,20 @@
+{
+  "name": "ganji-blog",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/dev-sanghoon/ganji-blog.git",
+  "author": "sanghoon",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "eslint": "^7.7.0",
+    "gatsby": "^2.24.47",
+    "gatsby-cli": "^2.12.87",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

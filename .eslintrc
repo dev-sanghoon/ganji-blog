@@ -1,0 +1,11 @@
+{
+  "globals": {
+    "__PATH_PREFIX__": true
+  },
+  "extends": [
+    "airbnb",
+    "prettier",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ]
+}
