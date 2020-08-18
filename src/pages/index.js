@@ -1,5 +1,12 @@
-import React from "react"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout"
 
 export default function Home() {
-  return <h1>Hello Gatsby!</h1>
+  return (
+    <Layout>
+      <Link to="/contact/">Contact</Link>
+      <p>What a world.</p>
+    </Layout>
+  )
 }
