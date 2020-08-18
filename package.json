@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public -b release"
   },
   "dependencies": {
     "eslint": "^7.7.0",
